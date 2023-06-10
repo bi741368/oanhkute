@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1;
+}
+body{
+    background-color: #B69FDF;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 94%;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    gap: 100px;
+    margin: auto;
+    margin-top: 20px;
+    border: 10px solid #46316a;
+}
+.left img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50%;
+    box-shadow: 0 6px 10px 0 rgba(58, 58, 58, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.right .title .up{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Cardo', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-size: 40px;
+color: #130f40;
+}
+.right .title .up .role{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #30336b;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.right .title .down{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Cardo', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-size: 40px;
+margin-top: 20px;
+color: #130f40;
+}
+.right .info1{
+    margin-top: 20px;
+    width: 258px;
+}
+/* gmail */
+/* Yoinked from CodePen, but improved the animation
+so that it is smooth among other more minor things */
+
+.codepen-button {
+    display: block;
+    cursor: pointer;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 3px;
+    isolation: isolate;
+  }
+  
+    .codepen-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400%;
+    height: 100%;
+    background: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+    background-size: 25% 100%;
+    animation: an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop .75s linear infinite;
+    animation-play-state: paused;
+    translate: -5% 0%;
+    transition: translate 0.25s ease-out;
+  }
+  
+  .codepen-button:hover::before {
+    animation-play-state: running;
+    transition-duration: 0.75s;
+    translate: 0% 0%;
+  }
+  
+  @keyframes an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop {
+    to {
+      transform: translateX(-25%);
+    }
+  }
+  
+  .codepen-button span {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+    background: white;
+    border-radius: 3px;
+    height: 100%;
+    color: #130f40;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .right .introduce{
+    margin-top: 120px;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #130f40;
+  }
+  .bot{
+    width:95%;
+    height: auto;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* test */
+  img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .card {
+    width: 270px;
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    font-weight: 900;
+    transition-duration: .2s;
+    background: linear-gradient(0deg, #000, #272727);
+  }
+  
+  .card:before, .card:after {
+    content: '';
+    position: absolute;
+    
+    left: -2px;
+    top: -2px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+          #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+  }
+  
+  @keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+  
+    50% {
+      background-position: 400% 0;
+    }
+  
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .card:after {
+    filter: blur(100px);
+  }
+  .facebook{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 94%;
+    height: auto;
+  }
+  .facebook .fbinfo{
+    width: 540px;
+    height: auto;
+    background-color: rgb(255, 253, 253);
+    padding: 60px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border: 2px solid purple;
+    box-shadow: 10px 10px  purple;
+  }
+/* btn */
+.fbinfo a {
+    margin: auto;
+}
+.button {
+    position: relative;
+    text-decoration: none;
+    color: #e8e8e8;
+    padding: 15px 30px;
+    width: 170px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    box-shadow: 0 0 20px rgba(248 ,155, 41,0.4),
+    0 0 20px rgba(255, 15, 123,0.4);
+    transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+  }
+  
+  .button span , .button span::before {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+  }
+  
+  .button span::before {
+    content: 'Click here';
+    top: -100%;
+  }
+  
+  .button:before {
+    top: 0;
+    left: 0;
+    border-top: 2px solid #e8e8e8;
+    border-left: 2px solid #e8e8e8;
+  }
+  
+  .button:after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 2px solid #e8e8e8;
+    border-right: 2px solid #e8e8e8;
+  }
+  
+  .button:after,
+  .button:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+  }
+  
+  .button:hover {
+    box-shadow: 0 0 30px rgba(248 ,155, 41,0.4),
+    0 0 30px rgba(255, 15, 123,0.4);
+    ;
+  }
+  
+  .button:hover:before,
+  .button:hover:after {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .button:hover span {
+    top: 100%;
+  }
+  
+  .button:active {
+    scale: 0.95;
+    box-shadow: 0 0 10px rgba(248 ,155, 41,0.4),
+    0 0 10px rgba(255, 15, 123,0.4);
+    ;
+  }
+  
+  .fbinfo .out{
+    color: #30336b;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .fbinfo .out .bold{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Cardo', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-size: 20px;
+  }
+  .fbinfo .bold{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Cardo', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-size: 25px;
+color: #30336b;
+  }
+  .insta{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+    width: 94%;
+    height: auto;
+  }
+  .insta .card{
+    width: 350px;
+  }
+  .insta .instainfo{
+    width: 400px;
+    height: auto;
+    background-color: rgb(255, 253, 253);
+    padding: 60px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border: 2px solid purple;
+    box-shadow: 15px 15px  purple;
+  }
+.instainfo a{
+    margin: auto;
+}
+.instainfo .out {
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Cardo', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-size: 20px;
+  }
+  /* reponsive */
+footer{
+  width: 100%;
+  height: auto;
+}
+footer .aut{
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+
+}
+.aut span{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Cardo', serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Rubik Puddles', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  color: #30336b;
+}

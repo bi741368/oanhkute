@@ -1,0 +1,184 @@
+@media screen and (max-width: 768px) {
+  /* mobile */
+  * {
+    padding: 0;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .facebook {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 100px;
+  }
+  .facebook .card {
+    width: 300px;
+  }
+  .insta .card {
+    width: 310px;
+  }
+  .insta .instainfo {
+    width: 250px;
+    padding: 30px;
+    box-shadow: 10px 10px purple;
+  }
+  .insta .instainfo .out {
+    font-size: 15px;
+  }
+}
+/* 414px ip 678  plus */
+@media screen and (max-width: 414px) {
+  * {
+    padding: 0;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1;
+  }
+  .main {
+    width: 63%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left img {
+    width: 200px;
+  }
+  .box {
+    width: 100%;
+    margin-left: 25%;
+    padding: 20px;
+  }
+  .box .title .up {
+    font-size: 25px;
+  }
+  .box .right .title .down {
+    font-size: 25px;
+  }
+  
+  .bot{
+    width: 100%;
+    margin-left: 30%;
+    margin-top: 50px;
+  }
+  .facebook{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+  }
+  .facebook .card {
+    width: 200px;
+  }
+  .facebook .fbinfo{
+    width: 250px;
+    padding: 15px;
+    gap: 20px;
+    box-shadow: 5px 5px purple;
+
+  }
+  .facebook .fbinfo .out .bold{
+    font-size: 15px;
+  }
+  .facebook .fbinfo .bold{
+    font-size: 14px;
+  }
+  .facebook .fbinfo .out {
+    font-size: 15px;
+  }
+  .facebook .fbinfo .button{
+    width: 120px;
+  }
+  .insta {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  .insta .card{
+    width: 200px;
+  }
+}
+/* 375px ip 6 78 normal */
+@media screen and (max-width: 375px){
+    * {
+        padding: 0;
+        margin: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        vertical-align: baseline;
+        text-decoration: none;
+        list-style: none;
+        line-height: 1;
+      }
+    .box {
+        margin-left: 20%;
+        padding: 18px;
+        gap: 20px;
+      }
+      .box .right .introduce{
+        font-size: 15px;
+        line-height: 30px;
+      }
+     footer .aut{
+        font-size: 20px;
+      }
+}
+/* 320px  ip5  */
+@media screen and (max-width:320px) {
+    * {
+        padding: 0;
+        margin: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        vertical-align: baseline;
+        text-decoration: none;
+        list-style: none;
+        line-height: 1;
+      }
+      .main {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .box{
+        width: 90%;
+        margin-left: 29%;
+      }
+      .box .right .introduce{
+        font-size: 14px;
+        line-height: 30px;
+      }
+      .bot{
+        width: 100%;
+        margin-left: 50%;
+        margin-top: 50px;
+      }
+}
